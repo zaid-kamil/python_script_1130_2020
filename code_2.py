@@ -11,7 +11,7 @@ def armstrong(number):
         return False
 
 # called in loop
-for i in range(100,999):
+for i in range(100,500):
     if armstrong(i):
         print(i)
     
